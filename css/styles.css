@@ -1,0 +1,162 @@
+body {
+  font-family: "Merriweather", serif;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 4.5rem;
+  margin-top: 0;
+  width: 0 auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+  border-top-width: 1rem;
+  margin: 4rem auto;
+  width: 4.5rem;
+}
+
+a {
+  color: #11999e;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  color: #40514e;
+}
+
+.bio {
+  white-space: pre;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Merriweather", serif;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: (to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.profile img {
+  border-radius: 100%;
+  padding-top: 2.5rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 24rem;
+  top: 4.5rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20rem;
+  top: 25rem;
+}
+
+.mountain {
+  padding-bottom: 20px;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 8rem;
+  position: relative;
+  width: 100%;
+}
+
+.middle-container {
+  background-color: #fff;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 5rem 0;
+}
+
+.skill-fe {
+  padding-top: 30px;
+  width: 40%;
+  float: left;
+  margin-right: 40px;
+}
+
+.skill-be {
+  padding-top: 30px;
+  width: 40%;
+  float: right;
+  margin-left: 40px;
+}
+
+.skill-p {
+  padding-top: 30px;
+  width: 40%;
+  float: left;
+  margin-right: 40px;
+}
+
+.skill-highlight {
+  text-align: left;
+  list-style-type: none;
+}
+
+.skill-row {
+  color: #66bfbf;
+  padding-top: 35px;
+  width: 58%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-me {
+  margin: 8rem auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer-note {
+  color: #eaf6f6;
+}
